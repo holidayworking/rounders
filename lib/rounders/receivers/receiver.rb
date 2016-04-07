@@ -9,6 +9,7 @@ module Rounders
 
       class << self
 
+
         def create_client(config)
           retriever = parser.lookup_retriever_method(config.protocol)
           new(
